@@ -58,7 +58,7 @@ return this.operationsHashMap;
 public boolean equals(Object object)
 {
 if(!(object instanceof Module)) return false;
-Module module1=(Module)object;
+Module module=(Module)object;
 return this.name.equals(module.getName());
 }
 public int compareTo(Module module)
